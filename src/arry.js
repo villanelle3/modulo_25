@@ -48,3 +48,25 @@ const num = numeros.map(function (numero){
 })
 
 console.log(num)
+
+
+// find
+// findIndex
+// filter
+
+const verificaTodos = alunosDict.every(function(item){
+    return item.curso === "matemática"
+})
+
+// some
+
+
+
+//Before Arrow:
+hello = function() {
+    return "Hello World!";
+}
+//With Arrow Function:
+hello = () => {
+    return "Hello World!";
+}
