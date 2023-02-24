@@ -27,8 +27,8 @@ const Aprovados  = alunos.filter((item) => {
 
 console.log(Aprovados)
 
-for (let aprovado in Aprovados){
-    console.log(Aprovados[aprovado].Nome)
+for (let index in Aprovados){
+    console.log(Aprovados[index].Nome)
 }
 
 
