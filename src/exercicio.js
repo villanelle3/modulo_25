@@ -13,13 +13,24 @@ const alunos = [
     new Aluno("Eduardo", 7.3),
 ]
 
-const Aprovados  = alunos.filter(function(item) {
+// const Aprovados  = alunos.filter(function(item) {
+//     if (item.Nota >= 6){
+//         return item
+//     }
+// });
+
+const Aprovados  = alunos.filter((item) => {
     if (item.Nota >= 6){
         return item
     }
 });
-console.log(" ")
+
 console.log(Aprovados)
+
+for (let aprovado in Aprovados){
+    console.log(Aprovados[aprovado].Nome)
+}
+
 
 
 
