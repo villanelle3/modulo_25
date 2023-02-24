@@ -70,3 +70,35 @@ hello = function() {
 hello = () => {
     return "Hello World!";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// function Aluno(nome, nota){
+//     this.Nome = nome || "unknown";
+//     this.Nota = nota || 0;
+// }
+
+// var std = new Aluno("Alice", 9.3);
+
+// let alunos = [
+//     {
+//         "nome": "Alice",
+//         "nota": "9.3",
+//     },
+//     {
+//         "nome": "Bruno",
+//         "nota": "8.5",
+//     },
+
+// ]
+
+// console.log(alunos)
